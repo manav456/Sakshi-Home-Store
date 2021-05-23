@@ -1,0 +1,70 @@
+    body {
+        text-align: center;
+        vertical-align: middle;
+         background-image: url("background.jpeg")
+    }
+
+    #welcome {
+        bottom: 0;
+        top: 20px;
+        left: 0;
+        right: 0;
+        background: linear-gradient(#00b4d8 20%, #b5e48c 80%);
+        height: 800px;
+        height: 100%;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 100;
+    }
+
+    .menu {
+        list-style: none;
+        position: fixed;
+        color: red;
+        top: 0px;
+        margin-top: 0px;
+        width: 100%;
+        z-index: 10;
+        cursor: pointer;
+        background: white;
+    }
+
+    .a {
+        display: inline;
+        float: center;
+        font-family: fantasy;
+        font-size: 25px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+    hr {
+        height: 5px;
+        background-color: black;
+        width: 70px;
+        margin: 8px auto;
+    }
+
+    #curtains {
+        height: 500px;
+        width: 500px;
+        text-align: center;
+        padding: 5px;
+        border-style: ridge;
+        border-color: black;
+}
+ #cushion {
+        height: 500px;
+        width: 500px;
+        text-align: center;
+        padding: 5px;
+}
+h3{
+    font-size: 60;
+}
+#cushion{
+    border-style: ridge;
+    border-color: black;
+}
